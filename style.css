@@ -1,7 +1,27 @@
 
-h3 {
+#timer {
 padding: 10px;   
 color: blue;
 font-size: 20px;
-text-align: right;
+text-align: center;
 }
+
+div ul button {
+    display: inline-block;
+    margin: 20px;
+    height: 50px;
+    width: auto;
+    outline: magenta solid 1px;
+}
+#submit {
+    display: inline-block;
+    width: 200px;
+    height: 50px; 
+    padding: 20px, 20px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
