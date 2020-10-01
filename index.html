@@ -8,7 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="timer">
+        <span id="timerId">100</span>
+    </div>
     <div class = "container">
+        <div id="start-screen">
+            <h1>JavaScript Quiz
+                <h3>The timer will start when "Start Quiz" is clicked. Time will be deducted if you answer incorrectly. Try to beat the clock!</h3>
+            </h1>
+            <button id="start">Start Quiz</button>
+        </div>
+        <div id="questions" class="hidden">
+            <h2 id="quizQuestion"></h2>
+            <div id="choices"></div>
+        </div>
+        <div id="endScreen" class="hidden">
+            <input type="text" id="userName">
+            <button id="results">Save Results</button>
+            <button id="reset">Reset Game</button>
+        </div>
+        <div id="userResults" class="hidden">
+            <h2>User Results</h2>
+            <p><strong>Username:</strong> <span id="logUser"></span></p>
+            <p><strong>Score:</strong> <span id="logScore"></span></p>
+        </div>
     </div>
     
     
